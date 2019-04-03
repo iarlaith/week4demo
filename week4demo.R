@@ -134,7 +134,7 @@ managers$Date <- managers_restructured_date
 # Combine both datasets with the rbind() function
 new_managers_dataframe <- rbind(managers, include_list)
 head(new_managers_dataframe)
-str(new)
+str(new_managers_dataframe)
 
 #check the date field of managers
 #managers$Date
